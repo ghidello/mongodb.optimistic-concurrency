@@ -1,5 +1,4 @@
-Disclaimer
-===================================================
+#Disclaimer#
 
 There's nothing new in here! I simply grabbed the ideas from [Optimistic concurrency for MongoDB in .NET][id] and made them a little more fluent.
 
