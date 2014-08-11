@@ -3,7 +3,7 @@ Disclaimer
 
 There's nothing new in here! I simply grabbed the ideas from [Optimistic concurrency for MongoDB in .NET][id] and made them a little more fluent.
 
-.NET Fluent Optimistic concurrency for MongoDB 
+Fluent optimistic concurrency for MongoDB in .NET
 ===================================================
 
 *As you can see, also the title is almost completely stolen.*
