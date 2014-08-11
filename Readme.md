@@ -3,7 +3,7 @@ Disclaimer
 
 There's nothing new in here! I simply grabbed the ideas from [Optimistic concurrency for MongoDB in .NET][id] and made them a little more fluent.
 
-"Fluent" Optimistic concurrency for MongoDB in .NET
+.NET Fluent Optimistic concurrency for MongoDB 
 ===================================================
 
 *As you can see, also the title is almost completely stolen.*
@@ -17,7 +17,7 @@ The reason behind a new mongo optimistic concurrency library are:
 
 An optimistic Update or Remove will be allowed only if requested on the same object version present in the database. 
 
-So, given a class Person implementing the INeedOptimisticConcurrency, it can be updated and removed in the following way:
+So, given a class Person implementing the INeedOptimisticConcurrency interface, it can be updated and removed in the following way:
 
 ```C#
 var collection = mongoDatabaseInstance.GetCollection("collectionName");
